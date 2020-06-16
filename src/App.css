@@ -1,0 +1,140 @@
+body {
+    width:100%;
+    height:auto;
+    margin:0px;
+    padding:0px;
+}
+
+/** STYLING FOR THE NAVIGATOIN BAR**/
+.nav-section{
+    width: 100%;
+    height: 10vh;
+    margin: 0px;
+    padding: 0px;
+}
+.header {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: tomato;
+    margin-bottom: 0px;
+    position: fixed;
+    z-index: 1;
+}
+.nav-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-items > li {
+    list-style: none;
+    box-sizing: border-box;
+    color: purple;
+    margin: 1rem;
+    text-transform: uppercase;
+    
+}
+li:hover {
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+/***********/
+
+/*STYLING FOR CARD SECTION*/
+:root {
+    --primaryColor: rgb(0, 170, 22);
+    --fontSize: 14.4px;
+    --color: #ffffff;
+}
+.row{
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+.item {
+    padding: 5%;
+    border-radius: 5px;
+    background-color:#fff ;
+   
+}
+
+.card-section{
+    background-color: silver !important;
+}
+.container-fluid{
+    margin-top: 10px !important;
+}
+.container {
+    margin-top: 20px !important;
+}
+.card{
+    position: relative;
+    margin-top: 2rem;
+    border-radius:5px;
+    width:250px;
+    height:auto;
+    background-color: transparent;
+    box-shadow: 0px 5px 5px 0px grey;
+    background: #fff;
+    transition: all 0.4s ease;
+    
+}
+
+.card-content > h2{
+    font-size: 1rem;
+}
+ img{
+    max-width:100%;
+    height: 200px;
+    align-items: center;
+    object-fit: contain;
+    object-position: center center;
+    margin: 25px 0 5px;
+}
+.card-body {
+    width: 100%;
+    height: auto;
+    
+}
+
+.banner {
+    background-color: orange;
+    text-align: center;
+    color:var(--color);
+    width: 20%;
+    border-radius: 15px;
+    position: absolute;
+    float: right;
+    top: 0px;
+    right: 0px;
+    margin: 5px;
+}
+
+.card-base{
+    color: var(--primaryColor);
+    font-size: var(--fontSize);
+    font-weight: 700;
+    font-family:'arial black';
+    font-style:'normal'
+}
+.cart{
+    width:40%;
+    text-align:center;
+    float:right;
+    border-radius:10px;
+    background-color:whitesmoke;
+}
+.side-bar {
+    position: relative;
+    background:var(--color) !important;
+    text-align: left;
+    border-radius: 5px;
+    height: 500px;
+    margin: 0px !important;
+    box-sizing: border-box;
+    background-color: transparent;
+    box-shadow: 0px 5px 5px 0px grey; 
+}
+
