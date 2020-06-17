@@ -12,8 +12,7 @@ const Card = () => {
         <div className="container-fluid">
             <div className="row">
                 <div className="col-md-2">
-                    <aside className="side-bar">
-                        <div>  
+                        <div className="side-bar">  
                             <p>
                                 <FaShoppingBag /> <span>Hand Bags</span>
                             </p>
@@ -27,19 +26,16 @@ const Card = () => {
                                 <MdWork/> <span>Laptop Bags</span>
                             </p>
                         </div>
-                    </aside>
                 </div>
 
-                <div className="card-section">
-                    <div className="card-section">
-                        <div className="col-md-3">
+                <div className="col-md-10" style={{backgroundColor:'grey'}}>
+                        <div className="col-sm-3">
                             {
                                 data.map((item) => 
                                 <div className="card">
                                 <CardBody {...item}/>
                             </div>)}
                         </div>
-                </div>
                 </div>
             </div>
         </div>

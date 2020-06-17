@@ -62,6 +62,8 @@ li:hover {
 
 .card-section{
     background-color: silver !important;
+    display: flex;
+    flex-direction: column;
 }
 .container-fluid{
     margin-top: 10px !important;
@@ -127,14 +129,15 @@ li:hover {
     background-color:whitesmoke;
 }
 .side-bar {
-    position: relative;
-    background:var(--color) !important;
+    position: fixed;
+    background:var(--color);
     text-align: left;
-    border-radius: 5px;
     height: 500px;
-    margin: 0px !important;
+    margin: 0px ;
     box-sizing: border-box;
     background-color: transparent;
-    box-shadow: 0px 5px 5px 0px grey; 
+    
 }
-
+.side-bar > p{
+    font-size: 15px;
+}
