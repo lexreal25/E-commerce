@@ -20,9 +20,9 @@
              cart:'Cart',    
          },
          {
-            imageUrl:require("./image/bag1.jpg"),
+            imageUrl:require("./image/bag3.jpg"),
              banner:'20%',
-             title:'Laptop Bags.....',
+             title:'Lolipop Purse.....',
              text:'1pc(s)',
              oldprice:'$100',
              price:'$110',
@@ -32,10 +32,10 @@
          {
             imageUrl:require("./image/s3.jpg"),
              banner:'20%',
-             title:'Laptop Bags.....',
+             title:'Chick & Sticks Bag.....',
              text:'1pc(s)',
              oldprice:'$100',
-             price:'$110',
+             price:'$80',
              cart:'Cart',    
          },
          {
@@ -48,9 +48,19 @@
              cart:'Cart',    
          },
          {
-            imageUrl:require("./image/bag1.jpg"),
+            imageUrl:require("./image/bag2.jpg"),
+             banner:'90%',
+             title:'EL-Bush Collection...',
+             text:'1pc(s)',
+             oldprice:'$200',
+             price:'$110',
+             cart:'Cart',    
+         }
+         ,
+         {
+            imageUrl:require("./image/bag6.jpg"),
              banner:'20%',
-             title:'Laptop Bags.....',
+             title:'Meldini Adalfo Classic.....',
              text:'1pc(s)',
              oldprice:'$100',
              price:'$110',
@@ -58,25 +68,50 @@
          }
          ,
          {
-            imageUrl:require("./image/bag1.jpg"),
-             banner:'20%',
-             title:'Laptop Bags.....',
-             text:'1pc(s)',
-             oldprice:'$100',
-             price:'$110',
-             cart:'Cart',    
-         }
-         ,
-         {
-            imageUrl:require("./image/bag1.jpg"),
+            imageUrl:require("./image/bag5.jpg"),
              banner:'',
              title:'Gorgio Amani Classic.....',
              text:'1pc(s)',
              oldprice:'',
              price:'$300',
              cart:'Cart',    
-         }
-         
+         },
+         {
+            imageUrl:require("./image/bag4.jpg"),
+             banner:'20%',
+             title:'Micheak Kors Bags.....',
+             text:'1pc(s)',
+             oldprice:'$150',
+             price:'$130',
+             cart:'Cart',    
+         },
+         {
+            imageUrl:require("./image/bag7.webp"),
+             banner:'10%',
+             title:'New Classic Bags.....',
+             text:'1pc(s)',
+             oldprice:'$120',
+             price:'$110',
+             cart:'Cart',    
+         },
+         {
+            imageUrl:require("./image/bag8.jpg"),
+             banner:'20%',
+             title:'Armani Leather Bag.....',
+             text:'1pc(s)',
+             oldprice:'$70',
+             price:'$50',
+             cart:'Cart',    
+         },
+         {
+            imageUrl:require("./image/bag9.jpg"),
+             banner:'20%',
+             title:'Sexy Bags.....',
+             text:'1pc(s)',
+             oldprice:'$100',
+             price:'$110',
+             cart:'Cart',    
+         },
     ] 
 
 export default data;
