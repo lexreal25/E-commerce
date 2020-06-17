@@ -2,7 +2,7 @@ import React from 'react'
 
  const Navbar = () => {
     return (
-        <div className="container-fluid nav-section">
+        <div className=" nav-section">
             <div className="header">
                 <img src="/" alt="logo" />
                 <nav className="nav-bar">

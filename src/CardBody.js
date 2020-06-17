@@ -9,7 +9,7 @@ export default class CardBody extends React.Component{
             <div className="item">
                 <div className="card-img-banner">
                     <p className="banner">{this.props.banner}</p>
-                    <img src={this.props.imageUrl} alt={this.props.title + 'item'} />
+                    <img className="img-responsive" src={this.props.imageUrl} alt={this.props.title + 'item'} />
                 </div>
 
                 <div className="card-content">

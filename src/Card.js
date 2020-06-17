@@ -14,22 +14,21 @@ const Card = () => {
                 <div className="col-md-2">
                         <div className="side-bar">  
                             <p>
-                                <FaShoppingBag /> <span>Hand Bags</span>
+                                <FaShoppingBag className="icon"/> <span>Hand Bags</span>
                             </p>
                             <p>
-                                <FaWallet/> <span>Wallet</span>
+                                <FaWallet className="icon"/> <span>Class Wallet</span>
                             </p>
                             <p>
-                                <FaWallet/> <span>Shoulder Bag</span>
+                                <FaWallet className="icon"/> <span>Shoulder Bag</span>
                             </p>
                             <p>
-                                <MdWork/> <span>Laptop Bags</span>
+                                <MdWork className="icon"/> <span>Laptop Bags</span>
                             </p>
                         </div>
                 </div>
-
-                <div className="col-md-10" style={{backgroundColor:'grey'}}>
-                        <div className="col-sm-3">
+                <div className="col-md-10 text-center card-section">
+                        <div className="check">
                             {
                                 data.map((item) => 
                                 <div className="card">
