@@ -1,7 +1,6 @@
 import React from 'react'
 import {FaCartPlus} from 'react-icons/fa'
 
-
 export default class CardBody extends React.Component{
     render(){
 

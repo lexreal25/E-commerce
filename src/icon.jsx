@@ -24,6 +24,7 @@ const Icon = () => {
             <p>
                 <MdWork className="icon"/> <span>Classic Extra</span>
             </p>
+            <span className="target"></span>
         </div>
     )
 }

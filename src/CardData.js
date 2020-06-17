@@ -7,7 +7,7 @@
             title:'Advent Leather Bag.....',
             text:'1pc(s)',
             oldprice:'$100',
-            price:'$160',
+            price:'160',
             cart:'Cart',    
         },
         {
@@ -16,7 +16,7 @@
              title:'Gucci Leather Bag.....',
              text:'1pc(s)',
              oldprice:'$70',
-             price:'$100',
+             price:'100',
              cart:'Cart',    
          },
          {
@@ -25,7 +25,7 @@
              title:'Lolipop Purse.....',
              text:'1pc(s)',
              oldprice:'$100',
-             price:'$110',
+             price:'110',
              cart:'Cart',    
          }
          ,
@@ -35,7 +35,7 @@
              title:'Chick & Sticks Bag.....',
              text:'1pc(s)',
              oldprice:'$100',
-             price:'$80',
+             price:'80',
              cart:'Cart',    
          },
          {
@@ -44,7 +44,7 @@
              title:'Calvin Klien Extreme.....',
              text:'1pc(s)',
              oldprice:'$25',
-             price:'$200',
+             price:'200',
              cart:'Cart',    
          },
          {
@@ -53,7 +53,7 @@
              title:'EL-Bush Collection...',
              text:'1pc(s)',
              oldprice:'$200',
-             price:'$110',
+             price:'110',
              cart:'Cart',    
          }
          ,
@@ -63,7 +63,7 @@
              title:'Meldini Adalfo Classic.....',
              text:'1pc(s)',
              oldprice:'$100',
-             price:'$110',
+             price:'110',
              cart:'Cart',    
          }
          ,
@@ -73,16 +73,16 @@
              title:'Gorgio Amani Classic.....',
              text:'1pc(s)',
              oldprice:'',
-             price:'$300',
+             price:'300',
              cart:'Cart',    
          },
          {
             imageUrl:require("./image/bag4.jpg"),
              banner:'20%',
-             title:'Micheak Kors Bags.....',
+             title:'Micheal Kors Bags.....',
              text:'1pc(s)',
              oldprice:'$150',
-             price:'$130',
+             price:'130',
              cart:'Cart',    
          },
          {
@@ -91,7 +91,7 @@
              title:'New Classic Bags.....',
              text:'1pc(s)',
              oldprice:'$120',
-             price:'$110',
+             price:'110',
              cart:'Cart',    
          },
          {
@@ -100,7 +100,7 @@
              title:'Armani Leather Bag.....',
              text:'1pc(s)',
              oldprice:'$70',
-             price:'$50',
+             price:'50',
              cart:'Cart',    
          },
          {
@@ -109,7 +109,7 @@
              title:'Sexy Bags.....',
              text:'1pc(s)',
              oldprice:'$100',
-             price:'$110',
+             price:'110',
              cart:'Cart',    
          },
     ] 
