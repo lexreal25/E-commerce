@@ -70,7 +70,7 @@ li:hover {
     align-items: center;
     box-shadow: 0px 5px 5px 0px #f0f0f0;
     background: #fff;
-    margin: 0.5rem;
+    margin: 0.2rem;
     transition: 0.4s ease-out;
 }
 
@@ -150,28 +150,63 @@ li:hover {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
     margin-top: var(--margin);
+    padding-left: 30px;
 }
 
 @media screen and (max-width:640px){
     .side-bar{
         width: 100%;
+        height: auto;
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-evenly;
+        justify-content: space-between;
         text-align: center;
         position: fixed;
         z-index: 1;
         margin: auto;
+        line-height: -2rem;
+        padding-left:0 15px;
+        padding-right: 15px;
     }
-    
-    /*
-    .side-bar > p:not(:last-child){
-        border-right: 1px solid grey;
+    .card-section{
+        padding-top: 20px;
     }
-    */
     .check{
         justify-content: space-evenly;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width:812px){
+    .check{
+        margin: 20px;
+        padding-left: 30px;
+    }   
+    .card{
+        margin: 0.1rem;
+    }
+}
+@media screen and (max-width:768px){
+    .check{
+        padding-right: 10%;
+        margin-left: 2%;
+    }
+    .card{
+        margin: 0.3rem;
+    }
+}
+
+@media screen and (max-width:1024px){
+    .check{
+        
+        padding-right: 7%;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+
+    }
+    .card{
+        margin: 0.1rem;
     }
 }
